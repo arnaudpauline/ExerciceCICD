@@ -1,0 +1,7 @@
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\ProjetExerciceCICD.exe
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\appsettings.json
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\ProjetExerciceCICD.dll
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\ProjetExerciceCICD.deps.json
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\ProjetExerciceCICD.runtimeconfig.json
+C:\Users\arnau\OneDrive\Documents\MastereWebTech\CICD\Nouveau dossier\ProjetExerciceCICD-main\ProjetExerciceCICD-main\ProjetExerciceCICD\bin\Release\netcoreapp3.1\publish\ProjetExerciceCICD.pdb
