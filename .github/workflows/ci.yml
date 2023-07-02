@@ -27,8 +27,8 @@ jobs:
     - name: Run SonarCloud analysis
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: dotnet sonarscanner begin /k:"ExerciceCICD" /d:sonar.login="${SONAR_TOKEN}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*"
-    
+      run: dotnet sonarscanner begin /k:"ExerciceCICD" /d:sonar.login="%SONAR_TOKEN%" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*" /o:"<organization>"
+
     - name: Build
       run: dotnet build --configuration Release
 
