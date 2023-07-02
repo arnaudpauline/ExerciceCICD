@@ -2,9 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "dotnet-framework-sonarscanner/5.13.0": {
-        "type": "package"
-      },
       "Microsoft.AspNetCore.Http/2.2.2": {
         "type": "package",
         "dependencies": {
@@ -168,52 +165,6 @@
     }
   },
   "libraries": {
-    "dotnet-framework-sonarscanner/5.13.0": {
-      "sha512": "NQLDvaiC8wmgbMW9trA5a2a/fHNh13JoVkCceQjj+Ku3Cv2VH8SIDqUTyV7c+GjEvwJMhHXxEe6aUrXyxGzFHw==",
-      "type": "package",
-      "path": "dotnet-framework-sonarscanner/5.13.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotnet-framework-sonarscanner.5.13.0.nupkg.sha512",
-        "dotnet-framework-sonarscanner.nuspec",
-        "tools/Google.Protobuf.dll",
-        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
-        "tools/Newtonsoft.Json.dll",
-        "tools/SonarQube.Analysis.xml",
-        "tools/SonarScanner.MSBuild.Common.dll",
-        "tools/SonarScanner.MSBuild.PostProcessor.dll",
-        "tools/SonarScanner.MSBuild.PreProcessor.dll",
-        "tools/SonarScanner.MSBuild.Shim.dll",
-        "tools/SonarScanner.MSBuild.TFS.dll",
-        "tools/SonarScanner.MSBuild.TFSProcessor.exe",
-        "tools/SonarScanner.MSBuild.TFSProcessor.exe.config",
-        "tools/SonarScanner.MSBuild.Tasks.dll",
-        "tools/SonarScanner.MSBuild.exe",
-        "tools/SonarScanner.MSBuild.exe.config",
-        "tools/System.Buffers.dll",
-        "tools/System.Memory.dll",
-        "tools/System.Net.Http.dll",
-        "tools/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "tools/System.Security.Cryptography.Algorithms.dll",
-        "tools/System.Security.Cryptography.Encoding.dll",
-        "tools/System.Security.Cryptography.Primitives.dll",
-        "tools/System.Security.Cryptography.X509Certificates.dll",
-        "tools/System.ValueTuple.dll",
-        "tools/Targets/SonarQube.Integration.ImportBefore.targets",
-        "tools/Targets/SonarQube.Integration.targets",
-        "tools/hostfxr.dll",
-        "tools/hostpolicy.dll",
-        "tools/sonar-scanner-4.8.0.2856/bin/sonar-scanner",
-        "tools/sonar-scanner-4.8.0.2856/bin/sonar-scanner-debug",
-        "tools/sonar-scanner-4.8.0.2856/bin/sonar-scanner-debug.bat",
-        "tools/sonar-scanner-4.8.0.2856/bin/sonar-scanner.bat",
-        "tools/sonar-scanner-4.8.0.2856/conf/sonar-scanner.properties",
-        "tools/sonar-scanner-4.8.0.2856/lib/sonar-scanner-cli-4.8.0.2856.jar"
-      ]
-    },
     "Microsoft.AspNetCore.Http/2.2.2": {
       "sha512": "BAibpoItxI5puk7YJbIGj95arZueM8B8M5xT1fXBn3hb3L2G3ucrZcYXv1gXdaroLbntUs8qeV8iuBrpjQsrKw==",
       "type": "package",
@@ -547,8 +498,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Http >= 2.2.2",
-      "StyleCop.Analyzers >= 1.1.118",
-      "dotnet-framework-sonarscanner >= 5.13.0"
+      "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
@@ -604,10 +554,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.1.118, )"
-          },
-          "dotnet-framework-sonarscanner": {
-            "target": "Package",
-            "version": "[5.13.0, )"
           }
         },
         "imports": [

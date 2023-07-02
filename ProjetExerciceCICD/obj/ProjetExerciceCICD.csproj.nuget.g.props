@@ -18,6 +18,5 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">C:\Users\arnau\.nuget\packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
-    <Pkgdotnet-framework-sonarscanner Condition=" '$(Pkgdotnet-framework-sonarscanner)' == '' ">C:\Users\arnau\.nuget\packages\dotnet-framework-sonarscanner\5.13.0</Pkgdotnet-framework-sonarscanner>
   </PropertyGroup>
 </Project>

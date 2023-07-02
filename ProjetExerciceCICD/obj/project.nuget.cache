@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "CqyVM/4cHzoaKT+PEyeWx28m3t3QScOKwQZLJlFTyIYjjRc7eoBmDlQCL2+VZE2XPIj3SOw0hsC3bQXJQRIxJg==",
+  "dgSpecHash": "/QItqDTIy73PpPIoXyGPr+xJI5669UFCFSKG1/NUV0SoBt15fwxzdHB+k4D+LKUfZ8oBTF8vXBuPFY533CLEIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\arnau\\OneDrive\\Documents\\MastereWebTech\\CICD\\Exercice2\\ExerciceCICD\\ProjetExerciceCICD\\ProjetExerciceCICD.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arnau\\.nuget\\packages\\dotnet-framework-sonarscanner\\5.13.0\\dotnet-framework-sonarscanner.5.13.0.nupkg.sha512",
     "C:\\Users\\arnau\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\arnau\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\arnau\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

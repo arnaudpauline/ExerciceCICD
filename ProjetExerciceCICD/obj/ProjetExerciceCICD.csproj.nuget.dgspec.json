@@ -53,10 +53,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.118, )"
-            },
-            "dotnet-framework-sonarscanner": {
-              "target": "Package",
-              "version": "[5.13.0, )"
             }
           },
           "imports": [
