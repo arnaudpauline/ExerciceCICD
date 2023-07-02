@@ -24,14 +24,13 @@ jobs:
     - name: Run StyleCop.Analyzers
       run: dotnet build --no-restore --configuration Release /p:WarningLevel=0
 
-    - name: Build
-      run: dotnet build --configuration Release
-      
     - name: Run SonarCloud analysis
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: dotnet tool install --global dotnet-sonarscanner && dotnet sonarscanner begin /k:"VotreCléProjetSonarCloud" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" && dotnet build --configuration Release && dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
-
+      run: dotnet sonarscanner begin /k:"ExerciceCICD" /d:sonar.login="${SONAR_TOKEN}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*"
+    
+    - name: Build
+      run: dotnet build --configuration Release
 
     - name: Test
       run: dotnet test --no-restore --verbosity normal
@@ -41,3 +40,8 @@ jobs:
 
     - name: Publish artifact
       run: dotnet publish --no-build --configuration Release --output ./publish
+      
+    - name: Complete SonarCloud analysis
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: dotnet sonarscanner end /d:sonar.login="${SONAR_TOKEN}"
