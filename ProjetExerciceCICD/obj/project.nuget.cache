@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NOPAMfwiZobIVLCe6AOy3rhJQZlQvebtKYGJtNT8obmK7/vuLBVDcu24rkFTfUEJ3OWJ5w8uzR1wPL3Ry2R4Hw==",
+  "dgSpecHash": "HpTTAoJcWqxG6JWoc6r9QbkB4OPXdV+l/Vab7WUyGn3a+XNETwlby1Cc/pHX7AWAtpO3vg+9ZszjmqyPs/QzXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\arnau\\OneDrive\\Documents\\MastereWebTech\\CICD\\Exercice2\\ExerciceCICD\\ProjetExerciceCICD\\ProjetExerciceCICD.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\arnau\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\arnau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
