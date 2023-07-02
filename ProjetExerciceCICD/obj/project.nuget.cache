@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t4HRW09ztUPBSiYTm7k3NVTeQclhOR/8H/hvFKAq6XjIIpNwRmwvdwttEWTLMhW6Jjuz7Nb16KQkIHhVOD3gKA==",
+  "dgSpecHash": "NOPAMfwiZobIVLCe6AOy3rhJQZlQvebtKYGJtNT8obmK7/vuLBVDcu24rkFTfUEJ3OWJ5w8uzR1wPL3Ry2R4Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arnau\\OneDrive\\Documents\\MastereWebTech\\CICD\\Nouveau dossier\\ProjetExerciceCICD-main\\ProjetExerciceCICD-main\\ProjetExerciceCICD\\ProjetExerciceCICD.csproj",
+  "projectFilePath": "C:\\Users\\arnau\\OneDrive\\Documents\\MastereWebTech\\CICD\\Exercice2\\ExerciceCICD\\ProjetExerciceCICD\\ProjetExerciceCICD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arnau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
