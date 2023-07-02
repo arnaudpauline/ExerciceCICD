@@ -20,6 +20,9 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
+      
+    - name: Run StyleCop.Analyzers
+      run: dotnet build --no-restore --configuration Release /p:WarningLevel=0
 
     - name: Build
       run: dotnet build --configuration Release
