@@ -40,7 +40,7 @@ jobs:
 
     - name: Publish artifact
       run: dotnet publish --no-build --configuration Release --output ./publish
-      
+    
     - name: Complete SonarCloud analysis
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
