@@ -27,13 +27,8 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
 
+    - name: Run tests
+      run: dotnet test
 
-    # Étape SonarLint
-    - name: SonarLint
-      run: dotnet sonarscanner begin /d:sonar.login="YOUR_SONAR_TOKEN"
-    
-    - name: Build and analyze
-      run: dotnet build /t:SonarQube
-          
-    - name: End SonarLint
-      run: dotnet sonarscanner end /d:sonar.login="YOUR_SONAR_TOKEN"
+    - name: Publish artifact
+      run: dotnet publish --no-build --configuration Release --output ./publish
